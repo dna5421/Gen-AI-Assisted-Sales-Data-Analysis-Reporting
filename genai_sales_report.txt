@@ -1,0 +1,136 @@
+# Sales Performance Analysis Report
+
+---
+
+## 1. Executive Summary
+
+During the evaluated 8-month period (January 2025 – August 2025), the business generated **1,373,850.0** in total net revenue across **20 total orders**, selling a total quantity of **157 items**. Revenue generation is heavily concentrated in the **Electronics** category (78.89% of net sales) and heavily driven by two regions: **North** (40.44%) and **West** (38.46%). 
+
+While the Average Order Value (AOV) is strong at **68,692.5**, the business faces critical operational risks: **100% of the customer base consists of one-time buyers** (20 unique customers across 20 orders), and net revenue has experienced a continuous downward trajectory over the last two months (July and August 2025).
+
+---
+
+## 2. Overall Sales Performance
+
+* **Total Revenue:** 1,373,850.0
+* **Total Orders:** 20
+* **Total Units Sold:** 157
+* **Average Order Value (AOV):** 68,692.5
+* **Total Discounts Extended:** 78,650.0
+* **Unique Customers:** 20
+
+---
+
+## 3. Revenue Trend Analysis
+
+Monthly sales exhibited high volatility throughout the year, with a sharp drop observed in recent months:
+
+* **2025-01:** Revenue of **233,250.0** (3 orders, 11 units) – Strong opening month.
+* **2025-02:** Revenue of **87,000.0** (3 orders, 25 units) – Drop of **-62.7%**.
+* **2025-03:** Revenue of **218,170.0** (3 orders, 9 units) – Rebound of **+150.77%**.
+* **2025-04:** Revenue of **125,730.0** (3 orders, 39 units) – Decline of **-42.37%**.
+* **2025-05:** Revenue of **214,800.0** (2 orders, 7 units) – Recovery of **+70.84%**.
+* **2025-06:** Revenue of **224,200.0** (2 orders, 11 units) – Peak growth month (**+4.38%** over May).
+* **2025-07:** Revenue of **148,740.0** (2 orders, 13 units) – Decline of **-33.66%**.
+* **2025-08:** Revenue of **121,960.0** (2 orders, 42 units) – Decline of **-18.0%**.
+
+**Key Observation:** Order volume dropped from 3 orders/month (Jan–Apr) to 2 orders/month (May–Aug). The period closed on a two-month negative trend line in Q3.
+
+---
+
+## 4. Best Performing Region
+
+* **Region:** North
+* **Revenue:** 555,520.0
+* **Revenue Share:** 40.44%
+* **Orders:** 5
+* **Quantity Sold:** 20 units
+
+*Note: The **West** region closely follows with **528,350.0** in revenue (38.46% share) across 5 orders and 20 units. Together, North and West generate **78.9%** of total revenue.*
+
+---
+
+## 5. Weakest Performing Region
+
+* **Region:** East
+* **Revenue:** 96,030.0
+* **Revenue Share:** 6.99%
+* **Orders:** 5
+* **Quantity Sold:** 95 units
+
+**Key Insight:** Although East recorded the highest volume of units sold (95 units out of 157 total across the business), its revenue contribution is the lowest due to sales being dominated by lower-value office supplies.
+
+---
+
+## 6. Best Performing Category
+
+* **Category:** Electronics
+* **Revenue:** 1,083,870.0 (78.89% of total revenue)
+* **Orders:** 10
+* **Quantity Sold:** 40 units
+
+Electronics is the core primary driver of business income, generating over 5x the revenue of the second-largest category (Furniture).
+
+---
+
+## 7. Top 5 Products
+
+1. **Mobile:** 427,500.0 Revenue | 18 units | 3 orders
+2. **Laptop:** 420,750.0 Revenue | 8 units | 4 orders
+3. **Monitor:** 235,620.0 Revenue | 14 units | 3 orders
+4. **Office Chair:** 109,050.0 Revenue | 16 units | 3 orders
+5. **Desk:** 84,900.0 Revenue | 6 units | 2 orders
+
+---
+
+## 8. Low Performing Products
+
+* **Printer Paper:** Revenue: 39,510.0 | Quantity: 90 | Orders: 3 *(Lowest revenue contribution despite generating the highest physical volume)*
+* **Printer:** Revenue: 56,520.0 | Quantity: 5 | Orders: 2 *(Lowest unit sales within the tech hardware segment)*
+
+---
+
+## 9. Customer and Order Insights
+
+* **Total Customer Base:** 20 Unique Customers
+* **Repeat Purchase Rate:** **0%** (All 20 customers have made exactly 1 purchase).
+* **Top Spenders:**
+  * **Akash Verma:** 190,000.0 Revenue (1 order, 8 units)
+  * **Ravi Kumar:** 158,400.0 Revenue (1 order, 3 units)
+  * **Vikas Gupta:** 142,500.0 Revenue (1 order, 6 units)
+  * **Amit Sharma:** 104,500.0 Revenue (1 order, 2 units)
+  * **Varun Gupta:** 104,500.0 Revenue (1 order, 2 units)
+
+Because order volume per customer is currently 1, sales success is entirely dependent on acquiring new accounts rather than retention or lifetime value.
+
+---
+
+## 10. Discount Impact
+
+Total gross sales across all categories stood at **1,452,500.0**, with **78,650.0** given away in discounts.
+
+* **Electronics:** Gross Sales: 1,142,000 | Discount: 58,130.0 | **Discount Rate: 5.09%**
+* **Furniture:** Gross Sales: 210,000 | Discount: 16,050.0 | **Discount Rate: 7.64%**
+* **Office Supplies:** Gross Sales: 100,500 | Discount: 4,470.0 | **Discount Rate: 4.45%**
+
+Furniture had the highest discount percentage (7.64%), while Electronics accounted for the vast majority of total discount expenditure (58,130.0) due to its overall scale.
+
+---
+
+## 11. Business Risks
+
+1. **Zero Customer Retention:** With 20 orders from 20 unique customers, there is no recurring revenue model. Acquisition costs could severely eat into margins if repeat orders are not established.
+2. **Category Concentration Risk:** Electronics accounts for 78.89% of revenue. Any supply chain disruption or demand decrease in this category puts the majority of company revenue at risk.
+3. **Recent Revenue Decline:** Revenue dropped by -33.66% in July and a further -18.0% in August, alongside a drop in monthly order volume from 3 to 2 orders per month.
+4. **Regional Revenue Imbalance:** East and South regions contribute only 6.99% and 14.12% of total revenue respectively, despite generating similar or higher order counts compared to North and West.
+
+---
+
+## 12. Three Actionable Recommendations
+
+1. **Launch a Re-engagement & Loyalty Program:** 
+   * Reach out to all 20 existing high-value customers (such as Akash Verma and Ravi Kumar) with tailored post-purchase promotions or hardware maintenance plans to convert one-time buyers into recurring accounts.
+2. **Cross-Sell High-Value Electronics into the East & South Regions:** 
+   * The East region has strong order activity and high volume demand (95 units sold), but low revenue (96,030.0). Introduce targeted cross-selling strategies to bundle high-margin Electronics (Laptops, Monitors) alongside basic Office Supplies in these regions.
+3. **Bundle Low-Performing Products with Top Sellers:** 
+   * Pair slower-moving items like Printers (56,520.0 revenue) and Printer Paper with top-performing Laptops and Monitors as discounted hardware/office bundles. This will raise the average deal size and clear lower-performing product inventory without diluting margins.
