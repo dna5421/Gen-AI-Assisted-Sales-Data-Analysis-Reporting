@@ -1,166 +1,211 @@
-## 🎯 Gen-AI-Assisted Sales Data Analysis & Reporting
+<body>
 
-## 📝 Project Overview
-
-This project analyzes sales transaction data, derives business KPIs, visualizes trends, and uses a generative AI model to produce a management-friendly business report. It combines traditional data analysis with AI-assisted summarization to convert raw sales data into actionable recommendations.
-
- ## ✨ Problem Statement
-
- Businesses often have raw sales records but struggle to turn them into clear insights about revenue performance, product trends, regional differences, customer retention risk, and operational opportunities.  This project addresses that gap by automating data cleaning, KPI calculation, chart generation, and AI-generated executive reporting from sales data.
-
- ## 📊 Dataset
+<div class="container">
  
- ✅ The project uses a sales dataset stored in sales_data.csv. The dataset includes 20 orders collected across January–August 2025 and contains:
- 
-  • OrderID
-  • OrderDate
-  • CustomerName
-  • Region
-  • Category
-  • Product
-  • Quantity
-  • UnitPrice
-  • Discount
+<header class="hero">
+    <h1>🎯 Gen-AI-Assisted Sales Data Analysis & Reporting</h1>
+    <p>Transforming raw sales transactions into business KPIs,visual insights, and AI-assisted management reporting.</p>
+</header>
 
+<section class="section">
+    <h2>📝 Project Overview</h2>
+    <p>This project analyzes sales transaction data, derives business KPIs,visualizes trends, and uses a generative AI model to produce amanagement-friendly business report.</p>
+    <p>It combines traditional data analysis with AI-assisted summarization to convert raw sales data into actionable recommendations.</p>
+</section>
 
- 
- ✅ The data reflects a business with:
+<section class="section">
+    <h2>✨ Problem Statement</h2>
+    <p>Businesses often have raw sales records but struggle to turn them into clear insights about revenue performance, product trends, regional differences, customer retention risk, and operational           opportunities.</p>
+    <p>This project addresses that gap by automating data cleaning, KPI calculation, chart generation, and AI-generated executive reporting from sales data.</p>
+</section>
 
-  •  20 total orders
-  •  157 total units sold
-  •  20 unique customers
-  •  Revenue distributed across regions, categories, and products
+<section class="section">
+    <h2>📊 Dataset</h2>
+    <p>The project uses a sales dataset stored in<strong>sales_data.csv</strong>.</p>
+    <p>The dataset includes 20 orders collected across January–August 2025 and contains:</p>
+    <ul>
+        <li>OrderID</li>
+        <li>OrderDate</li>
+        <li>CustomerName</li>
+        <li>Region</li>
+        <li>Category</li>
+        <li>Product</li>
+        <li>Quantity</li>
+        <li>UnitPrice</li>
+        <li>Discount</li>
+    </ul>
+    <h3>Business Dataset Summary</h3>
+    <div class="highlight-grid">
+        <div class="card"><span class="number">20</span><span class="label">Total Orders</span></div>
+        <div class="card"><span class="number">157</span><span class="label">Total Units Sold</span>
+        </div>
+        <div class="card"><span class="number">20</span><span class="label">Unique Customers</span>
+        </div>
+        <div class="card"><span class="number">₹13.74L</span><span class="label">Net Revenue</span></div>
+    </div>
+</section>
 
+<section class="section">
+    <h2>⚒️ Tools & Technologies</h2>
+    <div class="tech-list">
+        <span class="tech">Python</span>
+        <span class="tech">Pandas</span>
+        <span class="tech">Matplotlib</span>
+        <span class="tech">Seaborn</span>
+        <span class="tech">OpenPyXL</span>
+        <span class="tech">Google GenAI</span>
+        <span class="tech">Gemini API</span>
+        <span class="tech">Python-dotenv</span>
+        <span class="tech">CSV</span>
+        <span class="tech">Excel</span>
+    </div>
+</section>
 
-  ## ⚒️ Tools and Technologies
+<section class="section">
+    <h2>Ⓜ️ Methods</h2>
+        <li>Read the CSV file.</li>
+        <li>Check for missing or invalid records.</li>
+        <li>Remove duplicate rows.</li>
+        <li>Clean date and numerical fields.</li>
+    </ul>
+    <h3>2. Feature Engineering</h3>
+    <ul>
+        <li>Compute GrossSales.</li>
+        <li>Compute DiscountAmount.</li>
+        <li>Compute Revenue.</li>
+        <li>Create Month and Year columns.</li>
+    </ul>
+    <h3>3. Business Analytics</h3>
+    <ul>
+        <li>Total revenue.</li>
+        <li>Average order value.</li>
+        <li>Revenue by region.</li>
+        <li>Revenue by category.</li>
+        <li>Top and low-performing products.</li>
+        <li>Customer contribution analysis.</li>
+        <li>Discount impact analysis.</li>
+    </ul>
+    <h3>4. Visualization</h3>
+    <ul>
+        <li>Monthly sales trend chart.</li>
+        <li>Region-wise revenue chart.</li>
+        <li>Top product chart.</li>
+        <li>Correlation heatmap.</li>
+    </ul>
+    <h3>5. AI-Assisted Report Generation</h3>
+    <ul>
+        <li>Convert analysis metrics into a JSON payload.</li>
+        <li>Send the data to Gemini using a business-analysis prompt.</li>
+        <li>Generate management-friendly insights.</li>
+        <li>Generate recommendations based only on supplied data.</li>
+    </ul>
+</section>
 
-  • Python
-  • Pandas
-  • Matplotlib
-  • Seaborn
-  • OpenPyXL
-  • Google GenAI / Gemini API
-  • Python-dotenv
-  • CSV and Excel output generation
+<section class="section">
+    <h2>📊 Key Insights</h2>
+    <div class="success"><strong>Total Net Revenue:</strong> ₹1,373,850</div>
+    <div class="insight"><strong>Average Order Value:</strong>₹68,692.50</div>
+    <div class="insight"><strong>Category Performance:</strong>Electronics is the dominant category, contributing 78.89%of total revenue.</div>
+    <div class="insight"><strong>Regional Performance:</strong>North is the strongest region, contributing 40.44% of revenue.</div>
+    <div class="warning"><strong>East Region:</strong>East has the lowest revenue despite selling a high volume of units,indicating a potential revenue-efficiency opportunity.</div>
+    <div class="insight"><strong>Top Products:</strong>Mobile, Laptop, and Monitor are among the leading products.</div>
+    <div class="warning"><strong>Customer Retention:</strong>100% of customers are one-time buyers in this dataset,indicating a customer-retention opportunity.</div>
+    <div class="warning"><strong>Revenue Trend:</strong>Revenue declined in recent months, indicating a possibledownward demand trend.</div>
+    <div class="insight"><strong>Low-Performing Products:</strong>Products such as Printer Paper generate quantity but contribute comparatively low revenue.</div>
+</section>
 
-  
-  ## Ⓜ️ METHODS
+<section class="section">
+    <h2>🧑‍💼 AI Model & Output</h2>
+    <p>The project uses Google Gemini models for AI-assisted businessreport generation.</p>
+    <h3>Gemini Model Fallback Options</h3>
+    <ul>
+        <li>gemini-3.6-flash</li>
+        <li>gemini-3.5-flash</li>
+        <li>gemini-3.1-flash-lite</li>
+        <li>gemini-2.5-flash</li>
+    </ul>
+    <h3>Generated Outputs</h3>
+    <ul class="output-list">
+        <li>📄 cleaned_sales_data.csv</li>
+        <li>📊 sales_analysis_report.xlsx</li>
+        <li>📈 monthly_sales.png</li>
+        <li>📊 regional_sales.png</li>
+        <li>📦 product_sales.png</li>
+        <li>🔥 correlation_heatmap.png</li>
+        <li>🤖 genai_sales_report.txt</li>
+    </ul>
+</section>
 
-  1 Data loading and validation
+<section class="section">
+    <h2>🚀 How to Run This Project</h2>
+    <h3>1. Clone the Repository</h3>
+    <p>Clone the project repository to your local machine.</p>
+    <h3>2. Create a Virtual Environment</h3>
+    <p>Creating a virtual environment is optional but recommended.</p>
+    <h3>3. Install Dependencies</h3>
+    <div class="command">pip install pandas matplotlib seaborn python-dotenv google-genai openpyxl</div>
+    <h3>4. Configure Gemini API</h3>
+    <p>Create a <strong>.env</strong> file in the project root and add:</p>
+    <div class="env">GEMINI_API_KEY=your_api_key_here</div>
 
-  • Read the CSV file
-  • Check for missing or invalid records
-  • Remove duplicate rows and clean date/number fields
-  
-  2 Feature engineering
+   <h3>5. Add Dataset</h3>
+    <p>Ensure <strong>sales_data.csv</strong> is available either inthe project root or inside the <strong>data/</strong> directory.</p>
+   
+   <h3>6. Run the Script</h3>
+    <div class="command">python sales_genai_analysis.py</div>
 
-  • Compute GrossSales
-  • Compute DiscountAmount
-  • Compute Revenue
-  • Create month and year columns for trend analysis
+   <h3>The Script Will</h3>
+    <ul>
+        <li>Clean the sales data.</li>
+        <li>Generate business KPIs.</li>
+        <li>Generate charts.</li>
+        <li>Create Excel analytics.</li>
+        <li>Call Gemini for AI-powered insights.</li>
+        <li>Save generated outputs inside the output/ directory.</li>
+    </ul>
+</section>
 
-  3 Business analytics
+<section class="section">
+    <h2>🎯 Results</h2>
+    <p>The project successfully produces:</p>
+    <ul>
+        <li>Cleaned dataset for analysis.</li>
+        <li>Revenue and trend analysis.</li>
+        <li>Region, category, and product insights.</li>
+        <li>Executive-level recommendations.</li>
+        <li>Business-friendly AI summary report.</li>
+        <li>Visual dashboard elements for stakeholder review.</li>
+    </ul>
+</section>
 
-  • Total revenue
-  • Average order value
-  • Revenue by region
-  • Revenue by category
-  • Top and low-performing products
-  • Customer contribution analysis
-  • Discount impact analysis
+<section class="section">
+    <h2>✨ Conclusion</h2>
+    <p>This project demonstrates how data analytics and generative AIcan be combined to create an intelligent business reporting
+        workflow.</p>
+    <p>It transforms raw transaction data into structured insights,visual evidence, and actionable recommendations while reducing
+        the amount of manual reporting required.</p>
+</section>
 
-  4 Visualization
+<section class="section">
+    <h2>🏢 Future Work</h2>
+    <ul>
+        <li>Add real-world sales data importing from APIs or databases.</li>
+        <li>Integrate forecasting models for future revenue prediction.</li>
+        <li>Build an interactive dashboard using Streamlit or Dash.</li>
+        <li>Add customer segmentation and churn analysis.</li>
+        <li>Improve AI prompt design for more nuanced executive reporting.</li>
+        <li>Include region-wise and product-wise forecasting.</li>
+        <li>Add automated email or PDF report generation.</li>
+    </ul>
+</section>
 
-  • Monthly sales trend chart
-  • Region-wise revenue chart
-  • Top product chart
-  • Correlation heatmap
+<footer class="footer">
+    <h2>📡 Author & Contact</h2>
+    <p style="margin-top: 15px;">👤 Author: <strong>dna5421</strong></p>
+    <p>📧 GitHub Profile:<a href="https://github.com/dna5421"target="_blank">github.com/dna5421</a></p>
+    <p>🔗 Repository:<a href="https://github.com/dna5421/Gen-AI-Assisted-Sales-Data-Analysis-Reporting"target="_blank">Gen-AI-Assisted-Sales-Data-Analysis-Reporting</a></p>
+</footer>
 
-  5 AI-assisted report generation
+</div>
 
-  • Convert analysis metrics into a JSON payload
-  • Send the data to Gemini with a business-analysis prompt
-  • Generate a management summary and recommendations based only on the supplied numbers
-
- ## 📊 Key Insights
-
- ✅ The generated report highlights several important findings:
-
-  • Total net revenue: 1,373,850
-  • Average order value: 68,692.5
-  • Electronics is the dominant category, contributing 78.89% of total revenue
-  • North is the strongest region, contributing 40.44% of revenue
-  • East has the lowest revenue despite selling a high volume of units
-  • Top products include Mobile, Laptop, and Monitor
-  • Customer retention is a major risk: 100% of customers are one-time buyers
-  • Revenue declined in recent months, indicating a possible downward demand trend
-  • Low-performing products such as Printer Paper generate quantity but weak revenue
-
-  ## 🧑‍💼 Model / Output
-
- ✅ The project uses Google Gemini models for report generation. The script attempts several model options:
-
-  • gemini-3.6-flash
-  • gemini-3.5-flash
-  • gemini-3.1-flash-lite
-  • gemini-2.5-flash
-  
- ✅ Generated outputs include:
-
-  • cleaned_sales_data.csv
-  • sales_analysis_report.xlsx
-  • monthly_sales.png
-  • regional_sales.png
-  • product_sales.png
-  • correlation_heatmap.png
-  • genai_sales_report.txt
-
-  ## 🚀 How To Run This Project
-
-  ✅ Clone the repository
-  ✅ Create a virtual environment (optional but recommended)
-  ✅ Install dependencies: pip install pandas matplotlib seaborn python-dotenv google-genai openpyxl
-  ✅ Create a .env file in the project root with: GEMINI_API_KEY=your_api_key_here
-  ✅ Ensure sales_data.csv is present in the project root or in the data/ folder
-  ✅ Run: python sales_genai_analysis.py
-
-  6 The script will:
-  
-  • clean the data
-  • generate charts
-  • produce Excel analytics
-  • call Gemini for AI-powered insights
-  • save all outputs to the output/ directory
-
-  ## 🎯 Results
-
- ✅ The project successfully produces:
-
-  • A clean dataset for analysis
-  • Revenue and trend analysis
-  • Region/category/product insights
-  • Executive-level recommendations
-  • Business-friendly AI summary report
-  • Visual dashboard elements for stakeholder review
-
- ## ✨ CONCLUSION
-
-  This project demonstrates how data analytics and generative AI can be combined to create an intelligent business reporting workflow. It turns raw transaction data into structured insight, visual           evidence, and actionable recommendations without requiring manual reporting from scratch.
-
-
-  ## 🏢 Future Work
-
-  • Add real-world sales data importing from APIs or databases
-  • Integrate forecasting models for future revenue prediction
-  • Build an interactive dashboard using Streamlit or Dash
-  • Add customer segmentation and churn analysis
-  • Improve AI prompt design for more nuanced executive reporting
-  • Include region-wise and product-wise forecasting
-  • Add automated email or PDF report generation
-
-  ## 📡 Author & Contact
-
-  👤 Author: dna5421
-  📧 GitHub Profile: https://github.com/dna5421
-  🔗 Repository: https://github.com/dna5421/Gen-AI-Assisted-Sales-Data-Analysis-Reporting
-  
+</body> </html>
